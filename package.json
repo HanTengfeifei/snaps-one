@@ -1,0 +1,24 @@
+{
+  "name": "snaps-one",
+  "version": "1.0.0",
+  "description": "this is a snap for web3 mq of MetaMask",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanTengfeifei/snaps-one.git"
+  },
+  "keywords": [
+    "web3",
+    "mq",
+    "snap"
+  ],
+  "author": "Tengfei Han",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HanTengfeifei/snaps-one/issues"
+  },
+  "homepage": "https://github.com/HanTengfeifei/snaps-one#readme"
+}
