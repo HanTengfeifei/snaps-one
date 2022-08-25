@@ -60,13 +60,10 @@
       }) => {
         switch (request.method) {
           case 'hello':
-            return wallet.request({
-              method: 'snap_confirm',
-              params: [{
-                prompt: `Hello, ${origin}!`,
-                description: 'This custom confirmation is just for display purposes.',
-                textAreaContent: 'But you can edit the snap source code to make it do something, if you want to!'
-              }]
+            return new Promise((resolve, reject) => {
+              setTimeout(() => {
+                resolve('1888');
+              }, 1000);
             });
 
           default:

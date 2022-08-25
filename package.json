@@ -4,7 +4,13 @@
   "description": "this is a snap for web3 mq of MetaMask",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build:clean": "yarn clean && yarn build",
+    "build:website": "node ./scripts/build-website.js",
+    "build": "mm-snap build",
+    "serve": "mm-snap serve",
+    "watch": "mm-snap watch -s src/index.js -d dist ",
+    "clean": "rimraf dist/*"
   },
   "repository": {
     "type": "git",

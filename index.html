@@ -42,7 +42,11 @@
       await ethereum.request({
         method: 'wallet_enable',
         params: [{
-          wallet_snap: { [snapId]: {} },
+          wallet_snap: { 
+            'npm:snaps-one':{
+              version:'^1.0.0'
+            }
+           },
         }]
       })
     }
@@ -52,10 +56,11 @@
       try {
         const response = await ethereum.request({
           method: 'wallet_invokeSnap',
-          params: [snapId, {
+          params: ['npm:snaps-one', {
             method: 'hello'
           }]
         })
+        console.log('response',response)
       } catch (err) {
         console.error(err)
         alert('Problem happened: ' + err.message || err)
