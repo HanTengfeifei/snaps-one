@@ -1,6 +1,6 @@
 {
   "name": "snaps-one",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "this is a snap for web3 mq of MetaMask",
   "main": "index.js",
   "scripts": {
