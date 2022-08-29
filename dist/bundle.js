@@ -10712,7 +10712,7 @@
           case 'web3-mq':
             return new Promise((resolve, reject) => {
               resolve({
-                Web3MQ: Web3MQ,
+                Web3MQ: "Web3MQ",
                 name: "test"
               });
             });

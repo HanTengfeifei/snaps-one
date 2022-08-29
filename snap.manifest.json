@@ -1,5 +1,5 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "this is a snap for web3 mq of MetaMask",
   "proposedName": "snaps-one",
   "repository": {
@@ -7,7 +7,7 @@
     "url": "git+https://github.com/HanTengfeifei/snaps-one.git"
   },
   "source": {
-    "shasum": "2iOqQIKJ1CWJQYpqWVQx2cHubI2iFB5rJCAlkl7rcHM=",
+    "shasum": "Rb7kFdzRjjVrMEH3GGayTsfimLCCR6jPwRgY3Euxk3U=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
