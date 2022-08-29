@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/HanTengfeifei/snaps-one/issues"
   },
-  "homepage": "https://github.com/HanTengfeifei/snaps-one#readme"
+  "homepage": "https://github.com/HanTengfeifei/snaps-one#readme",
+  "dependencies": {
+    "mq-web3": "^1.0.0"
+  }
 }

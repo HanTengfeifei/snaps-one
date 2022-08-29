@@ -1,10 +1,11 @@
-module.exports.onRpcRequest = async ({ origin, request }) => {
+import * as Web3MQ from 'mq-web3'
+export const onRpcRequest = async ({ origin, request }) => {
   switch (request.method) {
-    case 'hello':
+    case 'web3-mq':
       return new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-        resolve('1888')
-        },1000)
+        resolve(
+          Web3MQ
+          )
       })
       
     default:

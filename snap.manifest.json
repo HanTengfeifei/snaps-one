@@ -7,7 +7,7 @@
     "url": "git+https://github.com/HanTengfeifei/snaps-one.git"
   },
   "source": {
-    "shasum": "SpymBDGFobcaDjlOC7dPakJas8ybiq9h+IrFJuF+Hgg=",
+    "shasum": "ktUsZmWVO6qlJIWbFsOmd5rVo38142D/rxD+w+XV4CQ=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
